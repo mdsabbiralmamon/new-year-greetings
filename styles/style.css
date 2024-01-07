@@ -344,3 +344,16 @@ main .holidaySell .container .holidaySellContainer p {
     margin-bottom: 64px;
     display: inline-flex;
 }
+
+/*===================================================
+            Holidays Sell Section CSS
+===================================================*/
+main .fDiscount{
+    width: 1320px;
+    height: 662px;
+    flex-shrink: 0;
+    margin: 120px auto;
+    background-image: url(../images/Group\ 75.png), url(../images/Rectangle\ 1.png), url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: left, top right, bottom;
+}
