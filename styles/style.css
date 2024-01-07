@@ -300,3 +300,47 @@ main .comingSoon .container .comingSoonContainer .soonRight img {
     height: 140px;
     flex-shrink: 0;
 }
+
+/*===================================================
+            Holidays Sell Section CSS
+===================================================*/
+main .holidaySell {
+    text-align: center;
+}
+
+main .holidaySell .container .holidaySellContainer h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main .holidaySell .container .holidaySellContainer h2 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 16px 0px 28px 0px;
+}
+
+main .holidaySell .container .holidaySellContainer h2 .holiday-color {
+    color: #F00;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+main .holidaySell .container .holidaySellContainer p {
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+    display: inline-flex;
+}
