@@ -21,7 +21,7 @@ header {
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.3) 100%), url("/resources/images/Banner Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.3) 100%), url("/images/Banner Image.png");
     margin: 50px auto;
     display: flex;
     align-items: center;
