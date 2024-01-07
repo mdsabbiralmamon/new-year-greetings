@@ -478,3 +478,107 @@ main .newsletter .container .newsletterContainer .emailSubscribe button {
     text-transform: capitalize;
     transform: translate(-210px, 0px);
 }
+
+/*===================================================
+            footer Section CSS
+===================================================*/
+footer {
+    background-color: #070211;
+    color: #FFF;
+    height: 609px;
+    flex-shrink: 0;
+}
+
+footer .footer .container .footerContainer .horizontalLine {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+footer .footer .container .footerContainer .upperFooterContainer {
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-between;
+    margin: 0px 0px 50px 0px;
+}
+
+footer .footer .container .footerContainer .upperFooterContainer .leftUpperFooter p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+
+footer .footer .container .footerContainer .upperFooterContainer .rightUpperFooter .callerIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .footer .container .footerContainer .upperFooterContainer .rightUpperFooter .callerIcon p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .footer .container .footerContainer .upperFooterContainer .rightUpperFooter .callerIcon img {
+    height: 30px;
+    width: 30px;
+}
+
+footer .footer .container .footerContainer .upperFooterContainer .rightUpperFooter .webIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .footer .container .footerContainer .upperFooterContainer .rightUpperFooter .webIcon p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .footer .container .footerContainer .upperFooterContainer .rightUpperFooter .webIcon img {
+    height: 30px;
+    width: 30px;
+}
+
+footer .footer .container .footerContainer .midFooterContainer .icons {
+    width: fit-content;
+    margin: 48px auto;
+}
+
+footer .footer .container .footerContainer .lowerFooterContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .container .footerContainer .lowerFooterContainer .leftLowerFooterContainer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+footer .footer .container .footerContainer .lowerFooterContainer .rightLowerFooterContainer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+}
