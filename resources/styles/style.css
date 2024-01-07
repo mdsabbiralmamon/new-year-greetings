@@ -49,3 +49,47 @@ header .container .header .headerContents h2 {
     font-weight: 900;
     line-height: 95px;
 }
+
+/*===================================================
+                Offer Section CSS
+===================================================*/
+main .container .offerSection {
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 120px;
+}
+
+main .container .offerSection h1 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .container .offerSection h4 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 48px 0px 16px 0;
+}
+
+main .container .offerSection h2 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 48px 0px;
+}
+
+main .container .offerSection img {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
