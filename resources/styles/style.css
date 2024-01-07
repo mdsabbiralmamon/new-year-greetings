@@ -54,7 +54,6 @@ header .container .header .headerContents h2 {
                 Offer Section CSS
 ===================================================*/
 main .container .offerSection {
-    border: 2px solid red;
     text-align: center;
     margin-top: 120px;
 }
