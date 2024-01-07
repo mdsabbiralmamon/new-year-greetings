@@ -1,2 +1,5 @@
-# new-year-greetings
-A Simple website for new year party celebration from a store
+## 🎆New Year Greetings Web Page
+
+---
+
+### 🐢Project Preview is loading🐢
