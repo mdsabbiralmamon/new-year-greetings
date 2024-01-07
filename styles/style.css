@@ -414,6 +414,7 @@ main .newsletter .container .newsletterContainer img {
     width: 150px;
     height: 150px;
     flex-shrink: 0;
+    margin-top: 60px;
 }
 
 main .newsletter .container .newsletterContainer h2 {
