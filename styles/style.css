@@ -497,13 +497,13 @@ footer {
     flex-shrink: 0;
     color: #FFF;
     background-color: #070211;
-    width: 100%;
 }
 
 footer .footer .fullContainer {
-    width: 82.5%;
-    max-width: 1320px;
-    margin: 0px auto;
+    width: 1320px;
+    height: 609px;
+    margin: 0px auto 0px auto;
+    background-color: #070211;
 }
 
 footer .footer .fullContainer .footerContainer .horizontalLine {
