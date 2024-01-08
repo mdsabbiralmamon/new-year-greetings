@@ -58,7 +58,7 @@ header .container .header .headerContents h2 {
 ===================================================*/
 main .container .offerSection {
     text-align: center;
-    margin-top: 120px;
+    margin: 120px auto 0px auto;
 }
 
 main .container .offerSection h1 {
@@ -499,6 +499,7 @@ footer .footer .container .footerContainer .horizontalLine {
     width: 1320px;
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
+    margin: 0px auto;
 }
 
 footer .footer .container .footerContainer .upperFooterContainer {
