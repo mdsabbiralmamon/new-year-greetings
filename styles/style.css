@@ -53,6 +53,12 @@ header .container .header .headerContents h2 {
     line-height: 95px;
 }
 
+main {
+    border: 2px solid green;
+    width: 1320px;
+    margin: 50px auto;
+}
+
 /*===================================================
                 Offer Section CSS
 ===================================================*/
@@ -204,27 +210,21 @@ main .event .container .eventVenue button {
 /*===================================================
               Coming Soon Section CSS
 ===================================================*/
-main .comingSoon {
-    height: fit-content;
-    flex-shrink: 0;
-    margin: 120px auto;
-    display: flex;
-    align-items: center;
-}
 
-main .comingSoon .container .comingSoonContainer {
+main .comingSoon .comingSoonContainer {
     width: 1320px;
     display: flex;
     align-items: center;
     text-align: left;
     justify-content: space-between;
+    margin: 120px 0px;
 }
 
-main .comingSoon .container .comingSoonContainer .soonLeft {
-    max-width: 533.34;
+main .comingSoon .comingSoonContainer .soonLeft {
+    max-width: 440px;
 }
 
-main .comingSoon .container .comingSoonContainer .soonLeft h4 {
+main .comingSoon .comingSoonContainer .soonLeft h4 {
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -233,7 +233,7 @@ main .comingSoon .container .comingSoonContainer .soonLeft h4 {
     line-height: normal;
 }
 
-main .comingSoon .container .comingSoonContainer .soonLeft h2 {
+main .comingSoon .comingSoonContainer .soonLeft h2 {
     color: #070211;
     font-size: 48px;
     font-style: normal;
@@ -242,7 +242,7 @@ main .comingSoon .container .comingSoonContainer .soonLeft h2 {
     text-transform: capitalize;
 }
 
-main .comingSoon .container .comingSoonContainer .soonLeft p {
+main .comingSoon .comingSoonContainer .soonLeft p {
     width: 393px;
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
@@ -253,9 +253,9 @@ main .comingSoon .container .comingSoonContainer .soonLeft p {
     margin: 16px 0px 22px 0px;
 }
 
-main .comingSoon .container .comingSoonContainer .soonMiddle {
-    width: 533.34px;
-    height: 533.34px;
+main .comingSoon .comingSoonContainer .soonMiddle {
+    width: 440px;
+    height: 440px;
     background-image: url(../images/Ellipse\ 2.png);
     background-repeat: no-repeat;
     background-size: 380px;
@@ -265,24 +265,25 @@ main .comingSoon .container .comingSoonContainer .soonMiddle {
     justify-content: center;
 }
 
-main .comingSoon .container .comingSoonContainer .soonMiddle img {
+main .comingSoon .comingSoonContainer .soonMiddle img {
     width: 300px;
     height: 300px;
     flex-shrink: 0;
 }
 
-main .comingSoon .container .comingSoonContainer .soonRight {
-    width: 533.34px;
+main .comingSoon .comingSoonContainer .soonRight {
+    width: 440px;
     display: flex;
     justify-content: right;
 }
 
-main .comingSoon .container .comingSoonContainer .soonRight .rightContents {
+main .comingSoon .comingSoonContainer .soonRight .rightContents {
     width: fit-content;
 }
 
-main .comingSoon .container .comingSoonContainer .soonRight h2 {
+main .comingSoon .comingSoonContainer .soonRight h2 {
     color: #F00;
+    max-width: 533.34px;
     font-family: Inter;
     font-size: 48px;
     font-style: normal;
@@ -290,7 +291,7 @@ main .comingSoon .container .comingSoonContainer .soonRight h2 {
     line-height: normal;
 }
 
-main .comingSoon .container .comingSoonContainer .soonRight p {
+main .comingSoon .comingSoonContainer .soonRight p {
     width: 276px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -301,7 +302,7 @@ main .comingSoon .container .comingSoonContainer .soonRight p {
     margin: 16px 0px 48px 0px;
 }
 
-main .comingSoon .container .comingSoonContainer .soonRight img {
+main .comingSoon .comingSoonContainer .soonRight img {
     width: 140px;
     height: 140px;
     flex-shrink: 0;
