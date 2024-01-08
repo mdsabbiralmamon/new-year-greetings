@@ -497,6 +497,7 @@ footer {
     flex-shrink: 0;
     color: #FFF;
     background-color: #070211;
+    width: 100%;
 }
 
 footer .footer .fullContainer {
