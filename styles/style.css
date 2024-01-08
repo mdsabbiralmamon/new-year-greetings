@@ -359,9 +359,9 @@ main .fDiscount {
     height: 662px;
     flex-shrink: 0;
     margin: 120px auto;
-    background-image: url(../images/Group\ 44.png), url(../images/Group-75.png), url(../images/Rectangle\ 1.png), url(../images/Rectangle\ 2.png);
+    background-image: url(../images/Group\ 44.png), url(../images/Group\ 75.png), url(../images/Rectangle\ 1.png), url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
-    background-position: 740px 50px, left, top right, bottom;
+    background-position: 740px 50px, 100px 0px, top right, bottom;
 }
 
 /*===================================================
