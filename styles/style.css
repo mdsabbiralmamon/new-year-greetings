@@ -53,8 +53,11 @@ header .container .header .headerContents h2 {
     line-height: 95px;
 }
 
+/*===================================================
+                main Section CSS
+===================================================*/
+
 main {
-    border: 2px solid green;
     width: 1320px;
     margin: 50px auto;
 }
