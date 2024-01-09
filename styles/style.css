@@ -407,6 +407,14 @@ main .portfolio .portfolioContainer .products {
     margin-bottom: 20px;
 }
 
+main .portfolio .portfolioContainer .products img{
+    transition: transform 0.3s ease-in-out;
+}
+
+main .portfolio .portfolioContainer .products img:hover {
+    transform: scale(1.2);
+}
+
 /*===================================================
             Newsletter Section CSS
 ===================================================*/
